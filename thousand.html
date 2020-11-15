@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+    <link rel="stylesheet" href="assets/styles/thousand.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <title>Thousand Sunny</title>
+</head>
+
+<body>
+    <!-- common block for all sections -->
+    <div class="container">
+        <!-- header section contains logo, nav-menu, two buttons -->
+        <header class="header">
+            <!-- logo image -->
+            <img class="header__logo" src="assets/images/thousand-logo.svg" alt="logo">
+            <!-- navigation -->
+            <nav class="header__nav">
+                <a class="nav__link_first" href="#">Home</a>
+                <a class="nav__link" href="#">Destinations</a>
+                <a class="nav__link" href="#">About</a>
+                <a class="nav__link" href="#">Partner</a>
+            </nav>
+            <!-- header buttons -->
+            <div class="header__buttons">
+                <!-- button to login -->
+                <button class="header__button-login">
+                    <p class="button-login__text">Login</p>
+                </button>
+                <!-- button to sign up-->
+                <button class="header__button-register">
+                    <p class="button-register__text">Register</p>
+                </button>
+            </div>
+        </header>
+
+        <!-- first and main section contains title, finder field and image -->
+        <main class="headline">
+            <!-- main title -->
+            <h1 class="headline__title">Explore and Travel</h1>
+            <!-- finder field block contains title, form field and button -->
+            <div class="headline__finder">
+                <!-- finder title -->
+                <h2 class="finder__title">Holiday Finder</h2>
+                <!-- form field for finder -->
+                <form class="finder__form" action="#" method="GET">
+                    <!-- select elements -->
+                    <select class="finder__form__select" name="location">
+                        <option selected value="">Location</option>
+                    </select>
+                    <select class="finder__form__select" name="activity">
+                        <option selected value="">Activity</option>
+                    </select>
+                    <select class="finder__form__select" name="grade">
+                        <option selected value="">Grade</option>
+                    </select>
+                    <select class="finder__form__select" name="date">
+                        <option selected value="">Date</option>
+                    </select>
+                </form>
+                <!-- finder button -->
+                <button class="finder__button-explore">
+                    <p class="finder__button-explore__text">Explore</p>
+                </button>
+            </div>
+            <!-- main image -->
+            <img class="headline__image" src="assets/images/thousand-01.png" alt="traveler">
+        </main>
+
+        <!-- second section contains image and learn-more block with title, text and button -->
+        <section class="learn-more">
+            <!-- second sections image -->
+            <img class="learn-more__image" src="assets/images/thousand-02.png" alt="baloons">
+            <!-- second section learn-more block -->
+            <div class="learn-more__block">
+                <!-- learn-more block title-->
+                <h2 class="learn-more__block__title">A new way to explore the world</h2>
+                <!-- learn-more block text -->
+                <p class="learn-more__block__text">For decades travellers have reached for Lonely Planet books when
+                    looking to plan and execute their
+                    perfect trip, but now, they can also let Lonely Planet Experiences lead the way</p>
+                <!-- learn-more block button -->
+                <button class="learn-more__block__button">
+                    <p class="learn-more__block__button__text">Learn More</p>
+                </button>
+            </div>
+        </section>
+
+        <!-- third section with destinations contains title, view-all link on the right side and photo gallery -->
+        <section class="destinations">
+            <!-- title -->
+            <h2 class="destinations__title">Featured destinations</h2>
+            <!-- view-all link -->
+            <a class="destinations__view-link" href="#">View All ></a>
+            <!-- photo gallery -->
+            <div class="destinations__gallery">
+
+                <!-- photo boxes with photo, shadow rectangle on it and white rectangle on it with text -->
+                <div class="gallery__photo-box">
+                    <!-- photo -->
+                    <img class="photo-box__image" src="assets/images/photo-1.png" alt="Raja Ampat, Indonesia">
+                    <!-- shadow rectangle -->
+                    <div class="photo-box__rectangle"></div>
+                    <!-- text rectangle -->
+                    <div class="photo-box__text-box">Raja Ampat<br>Indonesia</div>
+                </div>
+
+                <div class="gallery__photo-box">
+                    <!-- photo -->
+                    <img class="photo-box__image" src="assets/images/photo-2.png" alt="Fanjingshan, China">
+                    <!-- shadow rectangle -->
+                    <div class="photo-box__rectangle"></div>
+                    <!-- text rectangle -->
+                    <div class="photo-box__text-box">Fanjingshan<br>China</div>
+                </div>
+
+                <div class="gallery__photo-box">
+                    <!-- photo -->
+                    <img class="photo-box__image" src="assets/images/photo-3.png" alt="Vevey, Switzerland">
+                    <!-- shadow rectangle -->
+                    <div class="photo-box__rectangle"></div>
+                    <!-- text rectangle -->
+                    <div class="photo-box__text-box">Vevey<br>Switzerland</div>
+                </div>
+
+                <div class="gallery__photo-box">
+                    <!-- photo -->
+                    <img class="photo-box__image" src="assets/images/photo-4.png" alt="Skadar, Montenegro">
+                    <!-- shadow rectangle -->
+                    <div class="photo-box__rectangle"></div>
+                    <!-- text rectangle -->
+                    <div class="photo-box__text-box">Skadar<br>Montenegro</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- fourth section -->
+        <section class="guides">
+            <!-- fourth section block -->
+            <div class="guides__block">
+                <!-- fourth section block title-->
+                <h2 class="guides__block__title">Guides by Thousand Sunny</h2>
+                <!-- fourth section block text -->
+                <p class="guides__block__text">Packed with tips and advice from our on-the-ground experts, our city
+                    guides app (iOS and Android) is the ultimate resource before and during a trip.</p>
+                <!-- fourth section block button -->
+                <button class="guides__block__button">
+                    <p class="guides__block__button__text">Download</p>
+                </button>
+            </div>
+            <img class="guides__image" src="assets/images/thousand-03.png" alt="guide">
+        </section>
+    </div>
+</body>
+
+</html>
