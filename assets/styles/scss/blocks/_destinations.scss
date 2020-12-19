@@ -3,29 +3,8 @@
     margin-top: 15%;
 }
 
-.destinations__title {
-    font-family: Playfair Display;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    margin: 0;
-    /* identical to box height, or 139% */
-
-    color: #000000;
-
-    float: left;
-}
-
 .destinations__view-link {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 60px;
-    /* identical to box height, or 353% */
-
-    color: #FB8F1D;
-
+    @include view-all-link;
     float: right;
 }
 
@@ -50,7 +29,7 @@
     height: 56px;
     padding-left: 2%;
 
-    background: #FFFFFF;
+    background: $white;
     border-radius: 0px 6px 0px 0px;
 
     display: flex;
@@ -60,18 +39,18 @@
 
 .text-box__location {
     margin: 0;
-    font-family: Inter;
+    font-family: $subFont;
     font-style: normal;
     font-weight: 600;
     font-size: 17px;
 
-    color: #042521;
+    color: $locationColor;
 }
 
 .text-box__country {
     margin: 0;
-    color: #B8BECD;
-    font-family: 'Inter', sans-serif;
+    color: $linkColor;
+    font-family: $subFont;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;

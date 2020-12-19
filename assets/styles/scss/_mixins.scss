@@ -1,0 +1,82 @@
+//mixins
+
+//buttons
+@mixin nav-button {
+    width: 132px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+@mixin nav-button-text {
+    font-family: $subFont;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+@mixin button {
+    width: 164px;
+    height: 48px;
+
+    background: $accentColor;
+    border-radius: 8px;
+    border: none;
+}
+
+@mixin button-text {
+    font-family: $textFont;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: $white;
+}
+
+//titles
+
+@mixin title {
+    width: 80%;
+
+    font-family: $titleFont;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+
+    color: $black;
+}
+
+//text style
+@mixin text {
+    width: 90%;
+    height: auto;
+    margin: 10% 0;
+
+    font-family: $textFont;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+
+    color: $textColor;
+}
+
+//view-all link
+@mixin view-all-link {
+    font-family: $subFont;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+
+    color: $accentColor;
+}

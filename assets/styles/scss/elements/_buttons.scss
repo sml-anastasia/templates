@@ -1,0 +1,39 @@
+//buttons styles
+
+//header buttons
+
+.header__button {
+    @include nav-button;
+}
+
+.btn_login {
+    border: 1px solid $accentColor;
+    background-color: transparent;
+}
+
+.btn_reg {
+    background: $accentColor;
+    border: none;
+}
+
+.btn__text {
+    @include nav-button-text;
+}
+
+.text_login {
+    color: $accentColor;
+}
+
+.text_reg {
+    color: $white;
+}
+
+//page buttons
+
+.button {
+    @include button;
+}
+
+.button__text {
+    @include button-text;
+}

@@ -1,4 +1,75 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap");
+.header__button {
+  width: 132px;
+  height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.btn_login {
+  border: 1px solid #FB8F1D;
+  background-color: transparent;
+}
+
+.btn_reg {
+  background: #FB8F1D;
+  border: none;
+}
+
+.btn__text {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.text_login {
+  color: #FB8F1D;
+}
+
+.text_reg {
+  color: #FFFFFF;
+}
+
+.button {
+  width: 164px;
+  height: 48px;
+  background: #FB8F1D;
+  border-radius: 8px;
+  border: none;
+}
+
+.button__text {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+}
+
 body {
   width: 100%;
   display: -webkit-box;
@@ -11,6 +82,28 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.title {
+  width: 80%;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.text {
+  width: 90%;
+  height: auto;
+  margin: 10% 0;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  color: #7D7987;
 }
 
 .container {
@@ -53,7 +146,7 @@ a {
 
 .nav__link_first {
   color: #202336;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -62,7 +155,7 @@ a {
 
 .nav__link {
   color: #B8BECD;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -84,61 +177,6 @@ a {
       justify-content: space-around;
 }
 
-.header__button-login {
-  width: 132px;
-  height: 44px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border: 1px solid #FB8F1D;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 8px;
-  background-color: transparent;
-}
-
-.button-login__text {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  /*line-height: 60px;*/
-  color: #FB8F1D;
-}
-
-.header__button-register {
-  width: 132px;
-  height: 44px;
-  /* identical to box height, or 400% */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: #FB8F1D;
-  border-radius: 8px;
-  border: none;
-}
-
-.button-register__text {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  /*line-height: 60px;*/
-  color: #FFFFFF;
-}
-
 .headline {
   display: -ms-grid;
   display: grid;
@@ -148,7 +186,7 @@ a {
 }
 
 .headline__title {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
@@ -168,7 +206,7 @@ a {
 }
 
 .finder__title {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
@@ -177,7 +215,7 @@ a {
   color: #202336;
 }
 
-.finder__form {
+.finder__field {
   width: 470px;
   height: 180px;
   display: -webkit-box;
@@ -191,7 +229,7 @@ a {
       flex-wrap: wrap;
 }
 
-.finder__form__select {
+.finder__form {
   width: 220px;
   height: 52px;
   margin-right: 15px;
@@ -201,7 +239,7 @@ a {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 6px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -213,32 +251,6 @@ a {
       -ms-flex-align: center;
           align-items: center;
   color: #4A4C53;
-}
-
-.finder__button-explore {
-  width: 170px;
-  height: 52px;
-  background: #FB8F1D;
-  border-radius: 8px;
-  border: none;
-}
-
-.finder__button-explore {
-  font-family: 'Mulish', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 17px;
-  /* identical to box height, or 353% */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #FFFFFF;
 }
 
 .headline__image {
@@ -272,90 +284,16 @@ a {
   grid-column: 1/2;
 }
 
-.learn-more__block__title {
-  width: 80%;
-  font-family: 'Playfair Display', serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 50px;
-  /* or 139% */
-  color: #000000;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2/3;
-}
-
-.learn-more__block__text {
-  width: 90%;
-  height: auto;
-  margin: 10% 0;
-  font-family: Mulish;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 17px;
-  line-height: 30px;
-  /* or 176% */
-  color: #7D7987;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2/3;
-}
-
-.learn-more__block__button {
-  width: 164px;
-  height: 48px;
-  background: #FB8F1D;
-  border-radius: 8px;
-  border: none;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  grid-row: 1/2;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2/3;
-}
-
-.learn-more__block__button__text {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  /* identical to box height, or 375% */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #FFFFFF;
-}
-
 .destinations {
   margin-top: 15%;
 }
 
-.destinations__title {
-  font-family: Playfair Display;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  margin: 0;
-  /* identical to box height, or 139% */
-  color: #000000;
-  float: left;
-}
-
 .destinations__view-link {
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 17px;
   line-height: 60px;
-  /* identical to box height, or 353% */
   color: #FB8F1D;
   float: right;
 }
@@ -396,7 +334,7 @@ a {
 
 .text-box__location {
   margin: 0;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 17px;
@@ -406,7 +344,7 @@ a {
 .text-box__country {
   margin: 0;
   color: #B8BECD;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -435,53 +373,16 @@ a {
       grid-template-columns: 50% 50%;
 }
 
-.guides__block__title {
-  width: 80%;
-  font-family: Playfair Display;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 50px;
-  /* or 139% */
-  color: #000000;
-}
-
 .guides__block__text {
   width: 80%;
   margin-bottom: 10%;
-  font-family: Mulish;
+  font-family: "Mulish", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 17px;
   line-height: 30px;
   /* or 176% */
   color: #7D7987;
-}
-
-.guides__block__button {
-  background: #FB8F1D;
-  border-radius: 8px;
-  border: none;
-  width: 164px;
-  height: 48px;
-}
-
-.guides__block__button__text {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  /* identical to box height, or 375% */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #FFFFFF;
 }
 
 .guides__image {

@@ -8,3 +8,15 @@ body {
 a {
     text-decoration: none;
 }
+
+//title style
+
+.title {
+    @include title;
+}
+
+//text style
+
+.text {
+    @include text;
+}

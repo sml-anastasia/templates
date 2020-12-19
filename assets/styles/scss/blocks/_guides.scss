@@ -5,50 +5,17 @@
     grid-template-columns: 50% 50%;
 }
 
-.guides__block__title {
-    width: 80%;
-    font-family: Playfair Display;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 50px;
-    /* or 139% */
-
-    color: #000000;
-}
-
 .guides__block__text {
     width: 80%;
     margin-bottom: 10%;
-    font-family: Mulish;
+    font-family: $textFont;
     font-style: normal;
     font-weight: 300;
     font-size: 17px;
     line-height: 30px;
     /* or 176% */
 
-    color: #7D7987;
-}
-
-.guides__block__button {
-    background: #FB8F1D;
-    border-radius: 8px;
-    border: none;
-    width: 164px;
-    height: 48px;
-}
-
-.guides__block__button__text {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    /* identical to box height, or 375% */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    color: #FFFFFF;
+    color: $textColor;
 }
 
 .guides__image {

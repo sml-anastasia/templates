@@ -4,7 +4,6 @@
 
     display: grid;
     grid-template-columns: 50% 50%;
-
 }
 
 .learn-more__image {
@@ -13,61 +12,4 @@
 
 
     grid-column: 1/2;
-}
-
-.learn-more__block__title {
-    width: 80%;
-    font-family: 'Playfair Display', serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 50px;
-    /* or 139% */
-
-    color: #000000;
-
-
-    grid-column: 2/3;
-}
-
-.learn-more__block__text {
-    width: 90%;
-    height: auto;
-    margin: 10% 0;
-
-    font-family: Mulish;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 17px;
-    line-height: 30px;
-    /* or 176% */
-
-    color: #7D7987;
-
-    grid-column: 2/3;
-}
-
-.learn-more__block__button {
-    width: 164px;
-    height: 48px;
-
-    background: #FB8F1D;
-    border-radius: 8px;
-    border: none;
-
-    grid-row: 1/2;
-    grid-column: 2/3;
-}
-
-.learn-more__block__button__text {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    /* identical to box height, or 375% */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    color: #FFFFFF;
 }
