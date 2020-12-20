@@ -1,0 +1,46 @@
+@mixin title {
+    font-family: $defaultFont;
+    font-style: normal;
+    font-weight: 500;
+    font-size: $titleFontSize;
+    line-height: 50px;
+
+    color: $titleColor;
+}
+
+@mixin brand-name {
+    font-family: $defaultFont;
+    font-style: normal;
+    font-weight: 500;
+    font-size: $defaultFontSize;
+    line-height: 30px;
+
+    color: $textColor;
+}
+
+@mixin text {
+    font-family: $defaultFont;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $defaultFontSize;
+    line-height: 30px;
+
+    color: $textColor;
+}
+
+@mixin round-btn {
+    width: 150px;
+    height: 45px;
+
+    border: 1px solid $accentColor;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+@mixin square-btn {
+    width: 250px;
+    height: 60px;
+
+    background: $accentColor;
+    border-radius: 10px;
+}
