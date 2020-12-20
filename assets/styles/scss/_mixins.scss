@@ -44,8 +44,6 @@
 //titles
 
 @mixin title {
-    width: 80%;
-
     font-family: $titleFont;
     font-style: normal;
     font-weight: 700;
@@ -79,4 +77,65 @@
     line-height: 60px;
 
     color: $accentColor;
+}
+
+//title and view-all link in one line
+@mixin title-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@mixin story-card {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin story-card__title {
+    font-family: $subFont;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 30px;
+
+    color: $black;
+
+    mix-blend-mode: normal;
+}
+
+@mixin story-card__description {
+    font-family: $subFont;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+
+    color: $textColor;
+
+    mix-blend-mode: normal;
+}
+
+@mixin story-card__link {
+    font-family: $subFont;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+
+    color: $accentColor;
+
+    mix-blend-mode: normal;
+}
+
+@mixin footer-text {
+    font-family: $textFont;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: $footerColor;
+
+    mix-blend-mode: normal;
 }

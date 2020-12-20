@@ -3,11 +3,6 @@
     margin-top: 15%;
 }
 
-.destinations__view-link {
-    @include view-all-link;
-    float: right;
-}
-
 .destinations__gallery {
     clear: both;
 

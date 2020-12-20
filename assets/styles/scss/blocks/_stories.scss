@@ -1,0 +1,32 @@
+//stories styles
+
+.stories {
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.stories__cards {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.story-card {
+    @include story-card;
+}
+
+.story-card__title {
+    @include story-card__title;
+    margin-bottom: auto;
+}
+
+.story-card__description {
+    @include story-card__description;
+}
+
+.story-card__link {
+    @include story-card__link;
+    margin-top: auto;
+}

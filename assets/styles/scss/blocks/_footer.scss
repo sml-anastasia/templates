@@ -1,0 +1,82 @@
+//footer styles
+
+.footer {
+    width: 100%;
+    height: 100%;
+    padding: 5% 5% 0 5%;
+    box-sizing: border-box;
+
+    display: grid;
+    grid-template-columns: 30% repeat(3, 1fr);
+    grid-template-areas:
+        "gnrl mn mn mn"
+        "sm sm sm sm";
+
+    background-color: $bgrColor;
+}
+
+.footer__general {
+    @include footer-text;
+    grid-area: gnrl;
+}
+
+.general__copy {
+    margin-top: 20%;
+    font-size: 14px;
+}
+
+.footer__menu {
+    grid-area: mn;
+}
+
+.footer__social {
+    grid-area: sm;
+}
+
+.menu__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav__title {
+    font-family: $textFont;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 60px;
+
+    color: $black;
+
+    mix-blend-mode: normal;
+}
+
+.nav {
+    font-family: $textFont;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+
+    color: $footerColor;
+
+    mix-blend-mode: normal;
+}
+
+.footer__social {
+    padding: 3% 0;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    border-top: 1px solid $footerBorderColor;
+}
+
+.social__box {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
