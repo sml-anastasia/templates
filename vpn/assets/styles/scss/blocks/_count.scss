@@ -1,0 +1,42 @@
+//count block styles
+
+.count {
+    @include flex-row-sa;
+    width: 90%;
+    height: auto;
+    margin: 10% 0;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    box-shadow: 0 30px 54px -10px rgba(13, 16, 37, 0.06);
+}
+
+.count-box {
+    width: auto;
+    padding: 2% 10%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.count-box__num {
+    @include num;
+    margin-left: 20%;
+    display: block;
+}
+
+.count-box__text {
+    display: block;
+    font-family: $defaultFont;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: $textColor
+}
+
+.box-border {
+    border-left: 2px solid $borderColor;
+    border-right: 2px solid $borderColor;
+}
