@@ -1,0 +1,15 @@
+.headline {
+    @include flex-row-sa;
+    margin-top: 5%;
+}
+
+.headline__box,
+.headline__pic {
+    margin: auto;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+
+.headline__pic {
+    width: 100%;
+}

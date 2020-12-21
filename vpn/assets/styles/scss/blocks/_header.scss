@@ -24,11 +24,3 @@
 .header__sign {
     @include flex-row-sa;
 }
-
-.btn__text_in {
-    color: $textColor;
-}
-
-.btn_in {
-    border: none;
-}

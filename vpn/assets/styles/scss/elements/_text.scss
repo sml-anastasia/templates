@@ -1,0 +1,18 @@
+.main_title {
+    @include main-title;
+}
+
+.brand-name {
+    @include brand-name;
+}
+
+.brand-name_title {
+    @include brand-name;
+    font-size: 50px;
+    font-weight: 700;
+    color: $titleColor;
+}
+
+.text {
+    @include text;
+}

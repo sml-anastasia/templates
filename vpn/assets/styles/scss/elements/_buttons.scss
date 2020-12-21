@@ -1,17 +1,13 @@
 .btn_round {
     @include round-btn;
-    display: flex;
 }
 
 .btn_round:hover {
     background-color: $accentColor;
-}
-
-.btn__text:hover {
     color: #ffffff;
 }
 
-.btn__text {
-    @include btn-text;
-    margin: auto;
+.btn_in {
+    border: none;
+    color: $textColor;
 }

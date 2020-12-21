@@ -1,3 +1,13 @@
+@mixin main-title {
+    font-family: $defaultFont;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+
+    color: $titleColor;
+}
+
 @mixin title {
     font-family: $defaultFont;
     font-style: normal;
@@ -28,7 +38,19 @@
     color: $textColor;
 }
 
-@mixin btn-text {
+@mixin round-btn {
+    width: 150px;
+    height: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid $accentColor;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: transparent;
+
     font-family: $defaultFont;
     font-style: normal;
     font-weight: 500;
@@ -36,16 +58,6 @@
     line-height: 19px;
 
     color: $accentColor;
-}
-
-@mixin round-btn {
-    width: 150px;
-    height: 45px;
-
-    border: 1px solid $accentColor;
-    box-sizing: border-box;
-    border-radius: 50px;
-    background-color: transparent;
 }
 
 @mixin square-btn {
