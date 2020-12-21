@@ -64,8 +64,21 @@
     width: 250px;
     height: 60px;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background: $accentColor;
+    border: none;
     border-radius: 10px;
+
+    font-family: $defaultFont;
+    font-style: normal;
+    font-weight: bold;
+    font-size: $defaultFontSize;
+    line-height: 25px;
+
+    color: #FFFFFF;
 }
 
 @mixin flex-row-sa {

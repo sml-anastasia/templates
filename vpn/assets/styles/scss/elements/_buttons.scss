@@ -11,3 +11,7 @@
     border: none;
     color: $textColor;
 }
+
+.btn_square {
+    @include square-btn;
+}
