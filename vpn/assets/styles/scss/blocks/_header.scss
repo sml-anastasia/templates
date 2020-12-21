@@ -1,0 +1,34 @@
+//header styles
+
+.header {
+    @include flex-row-sa;
+    box-sizing: border-box;
+    margin-top: 5%;
+}
+
+.logo,
+.header__nav,
+.header__sign {
+    margin: auto;
+}
+
+.header__nav {
+    width: 40%;
+    @include flex-row-sa;
+}
+
+.nav__item {
+    @include text;
+}
+
+.header__sign {
+    @include flex-row-sa;
+}
+
+.btn__text_in {
+    color: $textColor;
+}
+
+.btn_in {
+    border: none;
+}
