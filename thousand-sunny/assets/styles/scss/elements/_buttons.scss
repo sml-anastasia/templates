@@ -9,22 +9,12 @@
 .btn_login {
     border: 1px solid $accentColor;
     background-color: transparent;
+    color: $accentColor;
 }
 
 .btn_reg {
     background: $accentColor;
     border: none;
-}
-
-.btn__text {
-    @include nav-button-text;
-}
-
-.text_login {
-    color: $accentColor;
-}
-
-.text_reg {
     color: $white;
 }
 

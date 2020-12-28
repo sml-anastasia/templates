@@ -17,30 +17,21 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 8px;
-}
-
-.btn_login {
-  border: 1px solid #FB8F1D;
-  background-color: transparent;
-}
-
-.btn_reg {
-  background: #FB8F1D;
-  border: none;
-}
-
-.btn__text {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
 }
 
-.text_login {
+.btn_login {
+  border: 1px solid #FB8F1D;
+  background-color: transparent;
   color: #FB8F1D;
 }
 
-.text_reg {
+.btn_reg {
+  background: #FB8F1D;
+  border: none;
   color: #FFFFFF;
 }
 

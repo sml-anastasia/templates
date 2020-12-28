@@ -13,6 +13,10 @@
     color: $titleColor;
 }
 
+.title {
+    @include title;
+}
+
 .text {
     @include text;
 }

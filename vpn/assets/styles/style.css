@@ -108,6 +108,15 @@ a {
   color: #0B132A;
 }
 
+.title {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0B132A;
+}
+
 .text {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -256,5 +265,9 @@ a {
 .box-border {
   border-left: 2px solid #EEEFF2;
   border-right: 2px solid #EEEFF2;
+}
+
+.feature__list {
+  list-style-image: url("../../../images/list-marker.png") no-repeat left;
 }
 /*# sourceMappingURL=style.css.map */

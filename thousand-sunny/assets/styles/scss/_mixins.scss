@@ -9,14 +9,12 @@
     justify-content: center;
     box-sizing: border-box;
     border-radius: 8px;
-}
-
-@mixin nav-button-text {
     font-family: $subFont;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
 }
+
 
 @mixin button {
     width: 164px;
