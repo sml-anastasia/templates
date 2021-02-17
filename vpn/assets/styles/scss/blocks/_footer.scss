@@ -1,0 +1,48 @@
+.footer {
+    width: 100%;
+    padding: 15% 0 5% 0;
+    margin-top: -130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: $footerBgrColor;
+}
+
+.footer__about {
+    width: 30%;
+}
+
+.about__social {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__nav__item {
+    line-height: 45px;
+}
+
+.footer__nav__title {
+    font-family: $defaultFont;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: $titleColor;
+}
+
+.footer__copy {
+    font-family: $defaultFont;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $defaultFontSize;
+    line-height: 30px;
+
+    color: $copyColor;
+}

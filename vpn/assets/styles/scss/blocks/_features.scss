@@ -1,3 +1,20 @@
 .feature__list {
     list-style-image: url('../../../images/list-marker.png') no-repeat left;
 }
+
+.features {
+    @include flex-row-sa;
+    width: 90%;
+}
+
+.features__pic,
+.features__box {
+    width: 50vw;
+    margin: auto;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+
+.feature__list {
+    @include text;
+}

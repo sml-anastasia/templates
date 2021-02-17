@@ -1,0 +1,33 @@
+.global {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.global__title,
+.global__text {
+    width: 50%;
+    text-align: center;
+}
+
+.global__title {
+    width: 35%;
+}
+
+.global__pic {
+    width: 80%;
+    margin-top: 5%;
+}
+
+.global__sponsor {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sponsor__logo {
+    width: 180px;
+
+}
