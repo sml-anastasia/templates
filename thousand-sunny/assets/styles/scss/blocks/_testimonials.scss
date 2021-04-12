@@ -1,0 +1,38 @@
+.testimonials__box {
+  height: 615.98px;
+}
+
+.testimonials__content {
+  width: 450px;
+  height: 321px;
+}
+
+.content__text {
+  font-family: $textFont;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: $black;
+  mix-blend-mode: normal;
+}
+
+.content__author {
+  font-family: $subFont;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 48px;
+  color: $black;
+  mix-blend-mode: normal;
+}
+
+.content__job {
+  font-family: $subFont;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 0.85);
+  mix-blend-mode: normal;
+}
