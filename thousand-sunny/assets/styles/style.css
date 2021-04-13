@@ -61,6 +61,17 @@
   color: #FFFFFF;
 }
 
+.prev-btn,
+.next-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.prev-btn img {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
 body {
   width: 100%;
   display: -webkit-box;

@@ -3,27 +3,37 @@
 //header buttons
 
 .header__button {
-    @include nav-button;
+  @include nav-button;
 }
 
 .btn_login {
-    border: 1px solid $accentColor;
-    background-color: transparent;
-    color: $accentColor;
+  border: 1px solid $accentColor;
+  background-color: transparent;
+  color: $accentColor;
 }
 
 .btn_reg {
-    background: $accentColor;
-    border: none;
-    color: $white;
+  background: $accentColor;
+  border: none;
+  color: $white;
 }
 
 //page buttons
 
 .button {
-    @include button;
+  @include button;
 }
 
 .button__text {
-    @include button-text;
+  @include button-text;
+}
+
+.prev-btn,
+.next-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.prev-btn img {
+  transform: rotate(180deg);
 }
